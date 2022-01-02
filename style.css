@@ -1,0 +1,136 @@
+.header{
+	width: 100%;
+	background: #121212 url(img/aboutbckg.png) no-repeat;
+	background-size: cover;
+	position: fixed;
+}
+.headerlogo{
+	display: inline-block;
+	margin-left: 10%;
+	font-family: 'Lobster', cursive;
+	color: white;
+}
+.headermenu{
+	display: inline-block;
+	width: 80%;
+	text-align: center;
+}
+.menutxt{
+	display: inline-block;
+	margin-right: 3%;
+}
+.menutxt.active a{
+	color: white;
+}
+.menutxt a{
+	color: gray;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Jura', sans-serif;
+}
+.header hr{
+	border: 4px solid gray;
+	margin:  0;
+}
+.fcontent{
+	padding-top: 80px;
+	width: 100%;
+	height: 520px;
+	background: url(img/fcontent.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.fcontent h1{
+	font-family: 'Jura', sans-serif;
+	margin: 0;
+	padding-top: 50px;
+}
+.about{
+	background: #121212 url(img/aboutbckg.png) no-repeat;
+	background-size: cover;
+	color: white;
+}
+.aboutcontainer{
+	padding-top: 50px;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	display: flex;
+}
+.aboutleft{
+	width: 50%;
+	font-size: 25px;
+	font-family: 'Jura', sans-serif;
+}
+.aboutright{
+	font-size: 20px;
+	font-family: 'Jura', sans-serif;
+	width: 50%;
+	padding-top: 10px;
+}
+.aboutslogan{
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	margin-top: 50px;
+	font-family: 'Jura', sans-serif;
+	text-align: center;
+}
+.aboutslogan h1{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.aboutforms form{
+	margin-top: 70px;
+	margin-left: 15%;
+	display: flex;
+}
+.aboutforms label{
+	margin-right: 50px;
+	font-family: 'Jura', sans-serif;
+	font-size: 25px;
+}
+.aboutforms input{
+	font-family: 'Jura', sans-serif;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	margin-right: 20px;
+	border: 1px solid white;
+	margin-bottom: 50px;
+
+}
+.imgdiv{
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	background-color: white;
+	color: black;
+	font-family: 'Jura', sans-serif;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.imgdiv img{
+	width: 100%;
+}
+.imgdiv p{
+	margin-bottom: 0;
+	color: gray;
+	font-size: 20px;
+	text-align: left;
+}
+.footer{
+	background-color: black;
+	margin: 0;
+	height: 80px;
+}
+.footer p{
+	color: white;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 15%;
+}
+.footer hr{
+	margin: 0;
+	border: 4px solid gray;
+}
